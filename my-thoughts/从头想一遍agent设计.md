@@ -1,6 +1,6 @@
 # 从头想一遍agent设计
 
-![整体架构](./my-thoughts/agent_architecture.jpg)
+![整体架构](./my-thoughts/images/agent_architecture.jpg)
 
 ## 整体架构
 从整体看，agent 项目就是处理一个很简单的流程，用户发送一个请求至服务端的 agent，请求一般为一段文字，然后 agent 做请求的解析、处理和返回的工作。
