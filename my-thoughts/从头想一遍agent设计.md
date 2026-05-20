@@ -1,5 +1,7 @@
 # 从头想一遍agent设计
 
+一个agent项目的整体架构如下
+
 ![整体架构](./images/agent_architecture.jpg)
 
 ## 整体架构
