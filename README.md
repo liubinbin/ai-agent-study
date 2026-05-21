@@ -4,4 +4,4 @@
 - qwenpaw-study：偶然发现这个项目，觉得不错，并且感觉阿里在上面投入挺大，值得学习。
 - my-thoughts：记录自己阶段性和总结性的思考和心得。
 - transformer-study：虽然应该不会去做基础模型，但 transformer 还是要学习一下。
-- project：待学习结束后，找几个场景练一下手。
+- project：待学习结束后，找几个场景练一下手，先记录一下。
