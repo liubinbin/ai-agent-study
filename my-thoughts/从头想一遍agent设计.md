@@ -7,9 +7,9 @@
 JSON Output：若希望 AI 返回时有一些回答原则，则可以通过 system prompt 把和用户提问一起提交给 AI。
 Tool Calls：调用 client.chat.completions.create 时，参数中有 model、messages 和 tools，我们可以把工具的相关信息填入 tools 参数。第一次 AI 返回内容有工具调用时，需要本地执行完工具，拿到返回结果，加入到 messages 参数，再提交给 AI 拿到最终结果。
 
-![整体架构](./images/agent_architecture.jpg)
-
 ## 整体架构
+
+![整体架构](./images/agent_architecture.jpg)
 
 从整体看，agent 项目就是处理一个很简单的流程，用户发送一个请求至服务端的 agent，请求一般为一段文字，然后 agent 做请求的解析、处理和返回的工作。
 
