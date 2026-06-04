@@ -53,8 +53,8 @@ Tool Calls：调用 client.chat.completions.create 时，参数中有 model、me
 
 ## 遗留问题列表
 
-1. QwenPaw 中工具注册中心，默认工具有哪些？
-2. deerflow 的 ThreadState 是什么级别？
+1. QwenPaw 中工具注册中心，默认工具有哪些？在src/qwenpaw/agents/react_agent.py 的 _create_toolkit 方法内，扫描了 src/qwenpaw/agents/tools/__init__.py 的 __all__ 列表对应的函数。
+2. deerflow 的 ThreadState 是什么级别？会话级别。
 3. 在需要使用 skill 的情况下，与 LLM 会有好几轮交互，可以看看交互内容具体是什么。
 
 
